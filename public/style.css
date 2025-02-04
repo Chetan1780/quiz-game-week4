@@ -1,1 +1,45 @@
-/* Write your code from here
+/* Write your code from here */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.option:hover {
+    background-color: #f0f0f0;
+}
+.correct {
+    background-color: #4caf50 !important;
+    color: white;
+}
+.incorrect {
+    background-color: #f44336 !important;
+    color: white;
+}
+#timer {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #f44336;
+}
+#result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
